@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.amusia.linecharttest.SimplePie
+        android:id="@+id/sp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:visibility="visible" />
+
+
+    <com.amusia.linecharttest.SimpleHistogram
+        android:id="@+id/sh"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone" />
+
+    <com.amusia.linecharttest.PreservationLineChart
+        android:id="@+id/plc"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <com.amusia.linecharttest.SimpleLineChart
+        android:id="@+id/slc"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <com.amusia.linecharttest.SimpleLineChart
+        android:id="@+id/slc2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone" />
+</LinearLayout>
